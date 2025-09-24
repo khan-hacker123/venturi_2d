@@ -5,7 +5,7 @@ import pandas as pd
 P_atm_mmHg = 749  
 T_atm_C = 25
 rho_water = 1000  # kg/m^3
-g = 9.81  # m/s^2
+g = 9.81  # mm h2o to pa
 R_air = 287  # J/(kg K)
 
 P_atm_Pa = P_atm_mmHg * 133.322  # 1 mmHg = 133.322 Pa
@@ -87,3 +87,4 @@ plt.legend()
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.tight_layout()
 plt.show()
+
